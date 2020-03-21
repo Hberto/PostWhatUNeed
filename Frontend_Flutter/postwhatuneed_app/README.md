@@ -1,16 +1,26 @@
-# postwhatuneedapp
+# postWhatUNeed - Frontend
 
-WeVsVirus
+WeVsVirus 2020
 
-## Getting Started
+## Informationen zum FrontEnd
 
-This project is a starting point for a Flutter application.
+Wir haben uns dazu entschieden das FrontEnd mit Flutter umzusetzten.
 
-A few resources to get you started if this is your first Flutter project:
+Folgende Screen, sollen in der App enthalten sein:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Login
+- Home
+- Neue Anfrage stellen
+- Neue Antwort
+- Anfragen suchen (Nach PLZ und Kategorie)
+- Detail-Ansicht Anfrage (mit Liste der Antworten)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Anmerkung
+
+Aus Zeitmangel befürchten Wir, dass die App innerhalb der "WeVsVirus" nur zu 
+einem sehr frühen Prototyp-Stadium kommen wird.
+
+
+### Zuständiger
+
+Andreas Balck

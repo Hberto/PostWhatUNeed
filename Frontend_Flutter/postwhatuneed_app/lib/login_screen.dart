@@ -5,6 +5,13 @@ import 'package:postwhatuneedapp/auth.dart';
 import 'package:provider/provider.dart';
 
 
+///Login-Screen
+///
+/// !!!!!!!MUSS NOCH STARK ÜBERARBEITET WERDEN!!!!!!!
+///
+/// von Andreas B.
+
+
 enum AuthMode { Signup, Login }
 
 class AuthScreen extends StatelessWidget {

@@ -5,6 +5,15 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+
+
+///Modul zur Verarbeitung des Login
+///
+/// !!!!!!!MUSS NOCH STARK ÜBERARBEITET WERDEN!!!!!!!
+///
+/// von Andreas B.
+
+
 class Auth with ChangeNotifier {
 
 

@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:postwhatuneedapp/loggin_screen.dart';
+import 'package:postwhatuneedapp/home_screen.dart';
+import 'package:postwhatuneedapp/login_screen.dart';
+import 'package:postwhatuneedapp/newPost-Screen.dart';
 
 import 'package:provider/provider.dart';
 
 import 'auth.dart';
+
+
+///Eintrittspunkt in die App
 
 
 void main() => runApp(MyApp());
@@ -22,11 +27,12 @@ class MyApp extends StatelessWidget {
               primarySwatch: Colors.purple,
               accentColor: Colors.deepOrange
           ),
-          home: AuthScreen(),
+//          home: AuthScreen(),
+      home: HomeScreen(),
 //
 //        initialRoute: "/",
           routes: {
-//            ProductsOverviewScreen.ROUTNAME: (ctx) => ProductsOverviewScreen(),
+            NewPostScreen.ROUTENAME: (ctx) => NewPostScreen(),
 
           },
         ),
